@@ -15,7 +15,7 @@ RUN npm install
 COPY . .
 
 # Expose the port your app runs on
-EXPOSE 3000
+EXPOSE 9000
 
 # Start the application in development mode
 CMD ["npm", "start"]
